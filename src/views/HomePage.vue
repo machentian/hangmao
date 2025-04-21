@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <section class="hero">
       <div class="hero-content">
-        <h1 class="hero-title">航懋机城(上海)有限公司</h1>
+        <h1 class="hero-title">航懋机械(上海)有限公司</h1>
         <p class="hero-subtitle">高端制造与精密加工的综合性企业</p>
         <div class="hero-buttons">
           <router-link to="/services"
@@ -20,7 +20,7 @@
         <h2 class="section-title">公司简介</h2>
         <div class="about-content">
           <div class="about-text">
-            <p>航懋机城（上海）有限公司是一家专注于高端制造与精密加工的综合性企业，依托先进的3D打印、精密铸造及机械加工技术，为全球客户提供从设计到量产的一站式解决方案。</p>
+            <p>航懋机械（上海）有限公司是一家专注于高端制造与精密加工的综合性企业，依托先进的3D打印、精密铸造及机械加工技术，为全球客户提供从设计到量产的一站式解决方案。</p>
             <p>业务覆盖亚太地区，在中国、泰国设有生产基地，服务领域涵盖汽车、航空航天、医疗、能源等行业。</p>
           </div>
           <div class="about-image">

@@ -8,7 +8,7 @@
             <span class="text-blue-500">航懋</span>机城
           </div>
           <p class="text-gray-400 mb-4">
-            航懋机城（上海）有限公司是一家专注于高端制造与精密加工的综合性企业
+            航懋机械（上海）有限公司是一家专注于高端制造与精密加工的综合性企业
           </p>
           <div class="flex space-x-4">
             <a href="#"
@@ -62,7 +62,7 @@
       </div>
 
       <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-        <p>&copy; {{ currentYear }} 航懋机城（上海）有限公司. 保留所有权利.</p>
+        <p>&copy; {{ currentYear }} 航懋机械（上海）有限公司. 保留所有权利.</p>
       </div>
     </div>
   </footer>
