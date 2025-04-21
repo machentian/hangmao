@@ -5,127 +5,327 @@
       <div class="container mx-auto px-4 text-center">
         <h1 class="text-4xl font-bold mb-4">技术优势</h1>
         <p class="text-xl max-w-3xl mx-auto">
-          我们拥有先进的制造技术和设备，确保产品质量和精度达到行业领先水平
+          柔性制造技术和数字化工艺
         </p>
       </div>
     </section>
+    <!-- Technology Overview -->
+    <section class="section tech-overview">
+      <div class="container">
+        <div class="tech-intro">
+          <h2 class="section-title">我们的技术实力</h2>
+          <p class="tech-description">
+            航懋机械以柔性制造技术和数字化工艺为核心，实现"小批量、快交付、零缺陷"的服务承诺。
+            我们拥有行业领先的设备和工艺，确保产品的高精度、高质量和高可靠性。
 
+          </p>
+        </div>
+
+        <div class="tech-stats">
+          <div class="stat-item">
+            <div class="stat-number">±0.01<span class="stat-unit">mm</span></div>
+            <div class="stat-label">加工精度</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-number">50%<span class="stat-unit">+</span></div>
+            <div class="stat-label">减少试模次数</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-number">CT6<span class="stat-unit">级</span></div>
+            <div class="stat-label">关键尺寸精度</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-number">24<span class="stat-unit">小时</span></div>
+            <div class="stat-label">工艺切换时间</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Flexible Manufacturing -->
+    <section class="section tech-section bg-light">
+      <div class="container">
+        <div class="tech-content">
+          <div class="tech-info">
+            <h2 class="section-title">柔性化生产能力</h2>
+            <p class="tech-description">
+              我们采用失蜡3D打印技术（无模成型），支持单件至百件级订单快速交付，适应复杂结构需求。
+              通过模块化模具设计，实现24小时内工艺切换，大幅降低小批量生产成本。
+            </p>
+
+            <div class="tech-features">
+              <div class="tech-feature">
+                <h3 class="feature-title">无模成型技术</h3>
+                <p class="feature-desc">采用失蜡3D打印技术，无需开模，大幅缩短生产周期</p>
+              </div>
+
+              <div class="tech-feature">
+                <h3 class="feature-title">模块化模具设计</h3>
+                <p class="feature-desc">实现24小时内工艺切换，降低小批量生产成本</p>
+              </div>
+
+              <div class="tech-feature">
+                <h3 class="feature-title">复杂结构支持</h3>
+                <p class="feature-desc">能够制造传统工艺无法实现的复杂内部结构</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tech-image">
+            <img src="/src/assets/product1.jpg"
+                 alt="柔性化生产能力" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Digital Process -->
+    <section class="section tech-section">
+      <div class="container">
+        <div class="tech-content reverse">
+          <div class="tech-info">
+            <h2 class="section-title">数字化工艺闭环</h2>
+            <p class="tech-description">
+              我们通过ProCAST/Magma软件预判铸造缺陷，减少试模次数50%以上。
+              数字化工艺闭环确保从设计到生产的全流程质量控制，提高生产效率和产品质量。
+            </p>
+
+            <div class="tech-features">
+              <div class="tech-feature">
+                <h3 class="feature-title">CAE仿真优化</h3>
+                <p class="feature-desc">通过ProCAST/Magma软件预判铸造缺陷，减少试模次数50%以上</p>
+              </div>
+
+              <div class="tech-feature">
+                <h3 class="feature-title">数字化质量控制</h3>
+                <p class="feature-desc">全流程数字化监控，确保产品质量</p>
+              </div>
+
+              <div class="tech-feature">
+                <h3 class="feature-title">工艺参数优化</h3>
+                <p class="feature-desc">基于数据分析持续优化工艺参数，提高生产效率</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tech-image">
+            <img src="/src/assets/product2.jpg"
+                 alt="数字化工艺闭环" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Material Innovation -->
+    <section class="section tech-section bg-light">
+      <div class="container">
+        <div class="tech-content">
+          <div class="tech-info">
+            <h2 class="section-title">材料与工艺创新</h2>
+            <p class="tech-description">
+              我们覆盖铸铁、铝合金、碳钢、不锈钢（奥氏体、双相钢）、钛合金、高温合金等多种材质，
+              能够满足不同行业、不同应用场景的材料需求。
+            </p>
+
+            <div class="tech-features">
+              <div class="tech-feature">
+                <h3 class="feature-title">多材质支持</h3>
+                <p class="feature-desc">覆盖铸铁、铝合金、碳钢、不锈钢、钛合金、高温合金等多种材质</p>
+              </div>
+
+              <div class="tech-feature">
+                <h3 class="feature-title">特种合金工艺</h3>
+                <p class="feature-desc">掌握特种合金的熔炼、铸造和热处理工艺</p>
+              </div>
+
+              <div class="tech-feature">
+                <h3 class="feature-title">材料性能优化</h3>
+                <p class="feature-desc">通过工艺优化提升材料性能，满足特殊应用需求</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tech-image">
+            <img src="/src/assets/product3.jpg"
+                 alt="材料与工艺创新" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Advanced Equipment -->
+    <section class="section tech-equipment">
+      <div class="container">
+        <h2 class="section-title text-center">先进设备</h2>
+        <p class="section-subtitle text-center">我们拥有行业领先的生产和检测设备</p>
+
+        <div class="equipment-grid">
+          <div class="equipment-card card">
+            <div class="equipment-image">
+              <img src="/src/assets/technology4.png"
+                   alt="蜡件3D打印机" />
+            </div>
+            <div class="equipment-content">
+              <h3 class="equipment-title">蜡件3D打印机</h3>
+              <p class="equipment-desc">用于快速制作复杂结构的蜡模</p>
+            </div>
+          </div>
+
+          <div class="equipment-card card">
+            <div class="equipment-image">
+              <img src="/src/assets/technology1.png"
+                   alt="熔模铸造沾浆制壳生产线" />
+            </div>
+            <div class="equipment-content">
+              <h3 class="equipment-title">熔模铸造沾浆制壳生产线</h3>
+              <p class="equipment-desc">用于高精度铸件生产</p>
+            </div>
+          </div>
+
+          <div class="equipment-card card">
+            <div class="equipment-image">
+              <img src="/src/assets/technology3.png"
+                   alt="多材料熔炼炉" />
+            </div>
+            <div class="equipment-content">
+              <h3 class="equipment-title">多材料熔炼炉</h3>
+              <p class="equipment-desc">用于各种合金材料的熔炼</p>
+            </div>
+          </div>
+
+          <div class="equipment-card card">
+            <div class="equipment-image">
+              <img src="/src/assets/technology2.png"
+                   alt="5轴精密加工中心" />
+            </div>
+            <div class="equipment-content">
+              <h3 class="equipment-title">5轴精密加工中心</h3>
+              <p class="equipment-desc">用于复杂形状零件的精密加工</p>
+            </div>
+          </div>
+          <div class="equipment-card card">
+            <div class="equipment-image">
+              <img src="/src/assets/technology5.png"
+                   alt="5轴精密加工中心" />
+            </div>
+            <div class="equipment-content">
+              <h3 class="equipment-title">理化实验室
+              </h3>
+              <p class="equipment-desc">原材料检验，铸件理化分析</p>
+            </div>
+          </div>
+          <div class="equipment-card card">
+            <div class="equipment-image">
+              <img src="/src/assets/technology6.png"
+                   alt="5轴精密加工中心" />
+            </div>
+            <div class="equipment-content">
+              <h3 class="equipment-title">金相检测分析仪
+              </h3>
+              <p class="equipment-desc">缺陷分析，孔隙率分析
+              </p>
+            </div>
+          </div>
+          <div class="equipment-card card">
+            <div class="equipment-image">
+              <img src="/src/assets/technology7.png"
+                   alt="5轴精密加工中心" />
+            </div>
+            <div class="equipment-content">
+              <h3 class="equipment-title">机械性能/硬度检测
+              </h3>
+              <p class="equipment-desc">拉力试验检测，维氏硬度/洛氏硬度等检测
+              </p>
+            </div>
+          </div>
+          <div class="equipment-card card">
+            <div class="equipment-image">
+              <img src="/src/assets/technology8.png"
+                   alt="5轴精密加工中心" />
+            </div>
+            <div class="equipment-content">
+              <h3 class="equipment-title">机械性能/硬度检测
+
+              </h3>
+              <p class="equipment-desc">拉力试验检测，维氏硬度/洛氏硬度等检测</p>
+            </div>
+          </div>
+          <div class="equipment-card card">
+            <div class="equipment-image">
+              <img src="/src/assets/technology9.png"
+                   alt="5轴精密加工中心" />
+            </div>
+            <div class="equipment-content">
+              <h3 class="equipment-title">DR / CT 全功能X射线探伤仪器
+              </h3>
+              <p class="equipment-desc"></p>
+            </div>
+          </div>
+          <div class="equipment-card card">
+            <div class="equipment-image">
+              <img src="/src/assets/technology10.png"
+                   alt="5轴精密加工中心" />
+            </div>
+            <div class="equipment-content">
+              <h3 class="equipment-title">DR / CT 全功能X射线探伤仪器
+              </h3>
+              <p class="equipment-desc"></p>
+            </div>
+          </div>
+          <!-- <div class="equipment-card card">
+            <div class="equipment-image">
+              <img src="/src/assets/technology11.png"
+                   alt="5轴精密加工中心" />
+            </div>
+            <div class="equipment-content">
+              <h3 class="equipment-title">DR / CT 全功能X射线探伤仪器
+              </h3>
+              <p class="equipment-desc"></p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Quality Control -->
+    <section class="section quality-control bg-light">
+      <div class="container">
+        <div class="quality-content">
+          <div class="quality-info">
+            <h2 class="section-title">质量控制</h2>
+            <p class="quality-description">
+              我们实施严格的质量控制体系，从原材料采购到成品交付的每一个环节都有严格的质量检测流程，
+              确保产品符合客户的要求和国际标准。
+            </p>
+
+            <div class="quality-features">
+              <div class="quality-feature">
+                <h3 class="feature-title">全检覆盖</h3>
+                <p class="feature-desc">光谱分析、X射线探伤、三坐标测量全检覆盖，关键尺寸精度达CT6级</p>
+              </div>
+
+              <div class="quality-feature">
+                <h3 class="feature-title">完整文档</h3>
+                <p class="feature-desc">提供材质报告、热处理记录、无损检测证书全套文件</p>
+              </div>
+
+              <div class="quality-feature">
+                <h3 class="feature-title">零缺陷承诺</h3>
+                <p class="feature-desc">严格的质量控制体系，确保产品零缺陷</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="quality-image">
+            <img src="/src/assets/technology11.png"
+                 alt="质量控制" />
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- 3D Printing Technology -->
-    <section class="py-16">
-      <div class="container mx-auto px-4">
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 class="text-3xl font-bold mb-4">3D打印技术</h2>
-            <div class="w-16 h-1 bg-blue-600 mb-6"></div>
-            
-            <div class="space-y-4 text-gray-700">
-              <p>我们采用最先进的3D打印技术，包括光固化（SLA）、选择性激光烧结（SLS）和直接金属激光烧结（DMLS）等工艺，能够满足各种复杂结构和高精度要求。</p>
-              
-              <div class="bg-gray-100 p-4 rounded-lg">
-                <h3 class="font-semibold mb-2">技术参数</h3>
-                <ul class="list-disc pl-5 space-y-1">
-                  <li>层厚精度：0.01mm - 0.1mm</li>
-                  <li>支持材料：树脂、尼龙、金属粉末等</li>
-                  <li>最大尺寸：500mm × 500mm × 500mm</li>
-                  <li>表面质量：Ra 0.8 - 3.2μm</li>
-                </ul>
-              </div>
-              
-              <div class="bg-gray-100 p-4 rounded-lg">
-                <h3 class="font-semibold mb-2">应用优势</h3>
-                <ul class="list-disc pl-5 space-y-1">
-                  <li>复杂结构：能够制造传统工艺无法实现的复杂内部结构</li>
-                  <li>快速原型：大幅缩短产品开发周期</li>
-                  <li>定制化：满足小批量、高度定制化的生产需求</li>
-                  <li>材料节约：减少材料浪费，降低生产成本</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div>
-            <img src="/placeholder.svg?height=500&width=700&text=3D打印技术" alt="3D打印技术" class="rounded-lg shadow-lg w-full" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Precision Casting Technology -->
-    <section class="py-16 bg-gray-50">
-      <div class="container mx-auto px-4">
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div class="order-2 md:order-1">
-            <img src="/placeholder.svg?height=500&width=700&text=精密铸造技术" alt="精密铸造技术" class="rounded-lg shadow-lg w-full" />
-          </div>
-          <div class="order-1 md:order-2">
-            <h2 class="text-3xl font-bold mb-4">精密铸造技术</h2>
-            <div class="w-16 h-1 bg-blue-600 mb-6"></div>
-            
-            <div class="space-y-4 text-gray-700">
-              <p>我们的精密铸造技术包括熔模铸造、砂型铸造和压力铸造等工艺，能够生产高精度、高强度的金属零部件，广泛应用于汽车、航空航天和医疗等领域。</p>
-              
-              <div class="bg-gray-100 p-4 rounded-lg">
-                <h3 class="font-semibold mb-2">技术参数</h3>
-                <ul class="list-disc pl-5 space-y-1">
-                  <li>尺寸精度：±0.05mm</li>
-                  <li>表面粗糙度：Ra 1.6 - 6.3μm</li>
-                  <li>材料性能：抗拉强度≥800MPa，延伸率≥10%</li>
-                  <li>适用材料：铝合金、不锈钢、钛合金、高温合金等</li>
-                </ul>
-              </div>
-              
-              <div class="bg-gray-100 p-4 rounded-lg">
-                <h3 class="font-semibold mb-2">质量控制</h3>
-                <ul class="list-disc pl-5 space-y-1">
-                  <li>X光检测：检查内部缺陷</li>
-                  <li>CT扫描：三维无损检测</li>
-                  <li>热处理：提升材料性能</li>
-                  <li>全尺寸检测：确保产品符合设计要求</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CNC Machining Technology -->
-    <section class="py-16">
-      <div class="container mx-auto px-4">
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 class="text-3xl font-bold mb-4">CNC机械加工技术</h2>
-            <div class="w-16 h-1 bg-blue-600 mb-6"></div>
-            
-            <div class="space-y-4 text-gray-700">
-              <p>我们拥有先进的CNC加工设备和技术，包括车削、铣削、磨削和电火花加工等，能够满足各种高精度、高复杂度的加工需求。</p>
-              
-              <div class="bg-gray-100 p-4 rounded-lg">
-                <h3 class="font-semibold mb-2">设备配置</h3>
-                <ul class="list-disc pl-5 space-y-1">
-                  <li>5轴联动加工中心：德国DMG MORI DMU 50</li>
-                  <li>高精度车铣复合中心：日本MAZAK INTEGREX i-200</li>
-                  <li>精密磨床：瑞士STUDER S33</li>
-                  <li>电火花加工机：日本牧野V33i</li>
-                </ul>
-              </div>
-              
-              <div class="bg-gray-100 p-4 rounded-lg">
-                <h3 class="font-semibold mb-2">加工能力</h3>
-                <ul class="list-disc pl-5 space-y-1">
-                  <li>加工精度：±0.005mm</li>
-                  <li>表面粗糙度：Ra 0.4 - 1.6μm</li>
-                  <li>最大加工尺寸：1000mm × 800mm × 600mm</li>
-                  <li>适用材料：各种金属、工程塑料、复合材料等</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div>
-            <img src="/placeholder.svg?height=500&width=700&text=CNC机械加工" alt="CNC机械加工" class="rounded-lg shadow-lg w-full" />
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Equipment Gallery -->
     <section class="py-16 bg-gray-900 text-white">
@@ -139,8 +339,15 @@
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          <div v-for="i in 8" :key="i" class="overflow-hidden rounded-lg">
-            <img :src="`/placeholder.svg?height=300&width=300&text=设备${i}`" :alt="`设备${i}`" class="w-full h-full object-cover transition-transform hover:scale-110 duration-300" />
+          <div v-for="i in 8"
+               :key="i"
+               class="overflow-hidden rounded-lg">
+            <!-- <img :src="`/placeholder.svg?height=300&width=300&text=设备${i}`"
+                 :alt="`设备${i}`"
+                 class="w-full h-full object-cover transition-transform hover:scale-110 duration-300" /> -->
+            <img :src="`/src/assets/technology${i}.png`"
+                 :alt="`设备${i}`"
+                 class="w-full h-full object-cover transition-transform hover:scale-110 duration-300" />
           </div>
         </div>
       </div>
@@ -187,12 +394,296 @@
               拥有经验丰富的质量控制团队，确保每个生产环节都符合质量标准。
             </p>
           </div>
+
         </div>
+
+      </div>
+    </section>
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold mb-4">优质服务</h2>
+          <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+          <p class="text-lg max-w-3xl mx-auto text-gray-700">
+            我们提供优质服务，确保每一位客户都满意
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="text-blue-600 mb-4">
+              <SearchIcon class="h-12 w-12" />
+            </div>
+            <h3 class="text-xl font-bold mb-2">零缺陷承诺</h3>
+            <p class="text-gray-700">
+              光谱分析、X射线探伤、三坐标测量全检覆盖，关键尺寸精度达CT6级。
+              提供材质报告、热处理记录、无损检测证书全套文件
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="text-blue-600 mb-4">
+              <UsersIcon class="h-12 w-12" />
+            </div>
+            <h3 class="text-xl font-bold mb-2">快速响应体系</h3>
+            <p class="text-gray-700">
+              72小时内完成工艺设计，7~15天交付样件。
+              技术支持团队”一对一”对接，提供从设计优化到批量生产的全周期服务。
+            </p>
+          </div>
+
+        </div>
+
       </div>
     </section>
   </div>
 </template>
 
 <script setup>
-import { ClipboardCheckIcon, SearchIcon, UsersIcon } from 'lucide-vue-next';
+import { ClipboardCheckIcon, SearchIcon, UsersIcon } from 'lucide-vue-next'
 </script>
+<style scoped>
+.tech-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+}
+
+.tech-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--secondary-dark);
+}
+
+.tech-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 30px;
+  background-color: var(--surface);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.stat-unit {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  color: var(--secondary-dark);
+}
+
+.bg-light {
+  background-color: #f9f9f9;
+}
+
+.tech-section {
+  padding: 80px 0;
+}
+
+.tech-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.tech-content.reverse {
+  flex-direction: row-reverse;
+}
+
+.tech-info {
+  flex: 1;
+}
+
+.tech-image {
+  flex: 1;
+}
+
+.tech-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.tech-features {
+  margin-top: 30px;
+}
+
+.tech-feature {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: var(--surface);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.tech-feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--primary-dark);
+}
+
+.feature-desc {
+  color: var(--secondary-dark);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.equipment-card {
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.equipment-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.equipment-image {
+  margin: -24px -24px 20px;
+}
+
+.equipment-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.equipment-title {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  color: var(--primary-dark);
+}
+
+.equipment-desc {
+  color: var(--secondary-dark);
+}
+
+.quality-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.quality-info {
+  flex: 1;
+}
+
+.quality-image {
+  flex: 1;
+}
+
+.quality-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.quality-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--secondary-dark);
+  margin-bottom: 30px;
+}
+
+.quality-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.cta {
+  background-color: var(--primary-dark);
+  color: white;
+  text-align: center;
+}
+
+.cta-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-text {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-btn {
+  background-color: white;
+  color: var(--primary-dark);
+  font-size: 1.1rem;
+  padding: 15px 30px;
+}
+
+.cta-btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 992px) {
+  .tech-content,
+  .quality-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .tech-content.reverse {
+    flex-direction: column;
+  }
+
+  .quality-features {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .cta-title {
+    font-size: 2rem;
+  }
+}
+</style>

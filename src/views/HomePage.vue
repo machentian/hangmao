@@ -4,7 +4,7 @@
     <section class="hero">
       <div class="hero-content">
         <h1 class="hero-title">航懋机械(上海)有限公司</h1>
-        <p class="hero-subtitle">高端制造与精密加工的综合性企业</p>
+        <p class="hero-subtitle">专注于多品种小批量零件一站式交付服务的供应商</p>
         <div class="hero-buttons">
           <router-link to="/services"
                        class="btn hero-btn">了解我们的服务</router-link>
@@ -20,11 +20,20 @@
         <h2 class="section-title">公司简介</h2>
         <div class="about-content">
           <div class="about-text">
-            <p>航懋机械（上海）有限公司是一家专注于高端制造与精密加工的综合性企业，依托先进的3D打印、精密铸造及机械加工技术，为全球客户提供从设计到量产的一站式解决方案。</p>
-            <p>业务覆盖亚太地区，在中国、泰国设有生产基地，服务领域涵盖汽车、航空航天、医疗、能源等行业。</p>
+
+            <p style="font-size: 20px; font-weight: bold;"> 航懋机械（上海）有限公司</p>
+            <p>成立时间：2014年 </p>
+            <p>定位：专注于高精度、多材质、中、小批量零件的生产制造。
+            </p>
+            <p>服务领域：流体动力、电力输送、交通运输、航空航天、医疗器械、新能源等行业领域。
+
+            </p>
+            <p>核心能力：以柔性制造技术和数字化工艺为核心，实现“小批量、快交付、零缺陷”的服务。
+
+            </p>
           </div>
           <div class="about-image">
-            <img src="/placeholder.svg?height=400&width=600"
+            <img src="/src/assets/car.jpg?height=600&width=600"
                  alt="公司形象" />
           </div>
         </div>
@@ -38,7 +47,7 @@
         <div class="services-grid">
           <div class="service-card card">
             <div class="service-icon">
-              <img src="/placeholder.svg?height=80&width=80"
+              <img src="/src/assets/car2.jpg"
                    alt="单件小批量零件加工" />
             </div>
             <h3 class="service-title">单件小批量零件加工</h3>
@@ -49,7 +58,7 @@
 
           <div class="service-card card">
             <div class="service-icon">
-              <img src="/placeholder.svg?height=80&width=80"
+              <img src="/src/assets/product5.jpg"
                    alt="快速3D打印蜡件" />
             </div>
             <h3 class="service-title">快速3D打印蜡件</h3>
@@ -60,7 +69,7 @@
 
           <div class="service-card card">
             <div class="service-icon">
-              <img src="/placeholder.svg?height=80&width=80"
+              <img src="/src/assets/product3.jpg"
                    alt="精密铸造" />
             </div>
             <h3 class="service-title">精密铸造</h3>
@@ -71,7 +80,7 @@
 
           <div class="service-card card">
             <div class="service-icon">
-              <img src="/placeholder.svg?height=80&width=80"
+              <img src="/src/assets/product4.jpg"
                    alt="机械加工" />
             </div>
             <h3 class="service-title">机械加工</h3>
@@ -90,34 +99,85 @@
         <div class="tech-content">
           <div class="tech-item">
             <div class="tech-icon">
-              <img src="/placeholder.svg?height=60&width=60"
-                   alt="精度" />
+              <svg xmlns="http://www.w3.org/2000/svg"
+                   width="40"
+                   height="40"
+                   viewBox="0 0 24 24"
+                   fill="none"
+                   stroke="currentColor"
+                   stroke-width="2"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   class="lucide lucide-settings">
+                <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
+                <circle cx="12"
+                        cy="12"
+                        r="3" />
+              </svg>
             </div>
             <div class="tech-info">
-              <h3 class="tech-title">高精度加工</h3>
-              <p class="tech-description">5轴联动加工中心，精度±0.01mm</p>
+              <h3 class="tech-title">柔性化生产能力</h3>
+              <p class="tech-description">采用失蜡3D打印技术（无模成型），支持单件至百件级订单快速交付</p>
             </div>
           </div>
 
           <div class="tech-item">
             <div class="tech-icon">
-              <img src="/placeholder.svg?height=60&width=60"
-                   alt="交付" />
+              <svg xmlns="http://www.w3.org/2000/svg"
+                   width="40"
+                   height="40"
+                   viewBox="0 0 24 24"
+                   fill="none"
+                   stroke="currentColor"
+                   stroke-width="2"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   class="lucide lucide-cpu">
+                <rect x="4"
+                      y="4"
+                      width="16"
+                      height="16"
+                      rx="2" />
+                <rect x="9"
+                      y="9"
+                      width="6"
+                      height="6" />
+                <path d="M15 2v2" />
+                <path d="M15 20v2" />
+                <path d="M2 15h2" />
+                <path d="M2 9h2" />
+                <path d="M20 15h2" />
+                <path d="M20 9h2" />
+                <path d="M9 2v2" />
+                <path d="M9 20v2" />
+              </svg>
             </div>
             <div class="tech-info">
-              <h3 class="tech-title">快速交付</h3>
-              <p class="tech-description">72小时快速交付周期</p>
+              <h3 class="tech-title">数字化工艺闭环</h3>
+              <p class="tech-description">通过ProCAST/Magma软件预判铸造缺陷，减少试模次数50%以上</p>
             </div>
           </div>
 
           <div class="tech-item">
             <div class="tech-icon">
-              <img src="/placeholder.svg?height=60&width=60"
-                   alt="检测" />
+              <svg xmlns="http://www.w3.org/2000/svg"
+                   width="40"
+                   height="40"
+                   viewBox="0 0 24 24"
+                   fill="none"
+                   stroke="currentColor"
+                   stroke-width="2"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   class="lucide lucide-flask-conical">
+                <path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2" />
+                <path d="M8.5 2h7" />
+                <path d="M7 16h10" />
+              </svg>
             </div>
             <div class="tech-info">
-              <h3 class="tech-title">全流程监控</h3>
-              <p class="tech-description">无损检测（X光、CT扫描）全流程监控</p>
+              <h3 class="tech-title">材料与工艺创新</h3>
+              <p class="tech-description">覆盖铸铁、铝合金、碳钢、不锈钢、钛合金、高温合金等多种材质</p>
             </div>
           </div>
         </div>
@@ -127,38 +187,105 @@
     <!-- Application Areas -->
     <section class="section application-areas">
       <div class="container">
-        <h2 class="section-title">应用领域</h2>
-        <div class="applications-grid">
-          <div class="application-card card">
-            <img src="/placeholder.svg?height=200&width=300"
-                 alt="汽车行业"
-                 class="application-image" />
-            <h3 class="application-title">汽车行业</h3>
-            <p class="application-description">发动机缸体、涡轮叶片等精密零件加工</p>
+        <h2 class="section-title">业务范围</h2>
+        <div class="services-grid">
+          <div class="service-card card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                   width="40"
+                   height="40"
+                   viewBox="0 0 24 24"
+                   fill="none"
+                   stroke="currentColor"
+                   stroke-width="2"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   class="lucide lucide-droplets">
+                <path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z" />
+                <path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97" />
+              </svg>
+            </div>
+            <h3 class="service-title">精密流体</h3>
+            <p class="service-description">耐腐蚀，薄壁，高压零件，材料包括碳钢，不锈钢，双相钢，有色金属等</p>
+            <router-link to="/services#fluid"
+                         class="service-link">了解更多</router-link>
           </div>
 
-          <div class="application-card card">
-            <img src="/placeholder.svg?height=200&width=300"
-                 alt="航空航天"
-                 class="application-image" />
-            <h3 class="application-title">航空航天</h3>
-            <p class="application-description">卫星结构件、火箭发动机部件制造</p>
+          <div class="service-card card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                   width="40"
+                   height="40"
+                   viewBox="0 0 24 24"
+                   fill="none"
+                   stroke="currentColor"
+                   stroke-width="2"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   class="lucide lucide-cog">
+                <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z" />
+                <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+                <path d="M12 2v2" />
+                <path d="M12 22v-2" />
+                <path d="m17 20.66-1-1.73" />
+                <path d="M11 10.27 7 3.34" />
+                <path d="m20.66 17-1.73-1" />
+                <path d="m3.34 7 1.73 1" />
+                <path d="M14 12h8" />
+                <path d="M2 12h2" />
+                <path d="m20.66 7-1.73 1" />
+                <path d="m3.34 17 1.73-1" />
+                <path d="m17 3.34-1 1.73" />
+                <path d="m11 13.73-4 6.93" />
+              </svg>
+            </div>
+            <h3 class="service-title">工业设备备品备件</h3>
+            <p class="service-description">耐腐蚀/耐磨铸件、复杂薄壁结构件，适用于交通运输、电力输送等领域</p>
+            <router-link to="/services#industrial"
+                         class="service-link">了解更多</router-link>
           </div>
 
-          <div class="application-card card">
-            <img src="/placeholder.svg?height=200&width=300"
-                 alt="医疗领域"
-                 class="application-image" />
-            <h3 class="application-title">医疗领域</h3>
-            <p class="application-description">人工关节、手术器械等高精度零件生产</p>
+          <div class="service-card card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                   width="40"
+                   height="40"
+                   viewBox="0 0 24 24"
+                   fill="none"
+                   stroke="currentColor"
+                   stroke-width="2"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   class="lucide lucide-heart-pulse">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                <path d="M3.22 12H9.5l.5-1 2 4 .5-1h6.78" />
+              </svg>
+            </div>
+            <h3 class="service-title">医疗器械</h3>
+            <p class="service-description">钴铬钼合金结构件，应用于骨科植入物、齿科器械等医疗领域</p>
+            <router-link to="/services#medical"
+                         class="service-link">了解更多</router-link>
           </div>
 
-          <div class="application-card card">
-            <img src="/placeholder.svg?height=200&width=300"
-                 alt="能源行业"
-                 class="application-image" />
-            <h3 class="application-title">能源行业</h3>
-            <p class="application-description">核电站阀门、风力发电机部件加工</p>
+          <div class="service-card card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                   width="40"
+                   height="40"
+                   viewBox="0 0 24 24"
+                   fill="none"
+                   stroke="currentColor"
+                   stroke-width="2"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   class="lucide lucide-plane">
+                <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+              </svg>
+            </div>
+            <h3 class="service-title">航空航天</h3>
+            <p class="service-description">复杂壳体类零件，特种合金铸件高温合金、钛合金、铝合金，用于备品备件</p>
+            <router-link to="/services#aerospace"
+                         class="service-link">了解更多</router-link>
           </div>
         </div>
       </div>
@@ -185,7 +312,7 @@
   <style scoped>
 .hero {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/placeholder.svg?height=1080&width=1920');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/src/assets/company.jpg');
   background-size: cover;
   background-position: center;
   display: flex;

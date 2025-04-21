@@ -28,7 +28,7 @@
                 </div>
                 <div>
                   <h3 class="text-xl font-semibold mb-2">公司地址</h3>
-                  <p class="text-gray-600 text-lg">上海市浦东新区临港新片区XX路XX号</p>
+                  <p class="text-gray-600 text-lg">上海市奉贤区肖湾路511号2幢3层</p>
                 </div>
               </div>
 
@@ -38,7 +38,7 @@
                 </div>
                 <div>
                   <h3 class="text-xl font-semibold mb-2">联系电话</h3>
-                  <p class="text-gray-600 text-lg">+86-21-XXXXXXXX</p>
+                  <p class="text-gray-600 text-lg">+86-18939777123</p>
                 </div>
               </div>
 
@@ -48,7 +48,7 @@
                 </div>
                 <div>
                   <h3 class="text-xl font-semibold mb-2">电子邮箱</h3>
-                  <p class="text-gray-600 text-lg">info@hangmaojicheng.com</p>
+                  <p class="text-gray-600 text-lg">james.zhang@126.com</p>
                 </div>
               </div>
 
@@ -59,7 +59,6 @@
                 <div>
                   <h3 class="text-xl font-semibold mb-2">工作时间</h3>
                   <p class="text-gray-600 text-lg">周一至周五: 9:00 - 18:00</p>
-                  <p class="text-gray-600 text-lg">周六、周日: 休息</p>
                 </div>
               </div>
             </div>
@@ -68,7 +67,7 @@
           <!-- Factory Locations -->
           <div>
             <h2 class="text-3xl font-bold mb-8 text-center">
-              工厂地址
+              工厂
               <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -80,11 +79,11 @@
                 <div class="space-y-4">
                   <div class="flex items-start">
                     <MapPinIcon class="h-6 w-6 text-gray-400 mr-3 flex-shrink-0 mt-1" />
-                    <p class="text-gray-600">上海市临港新片区XX路XX号</p>
+                    <p class="text-gray-600">上海市奉贤区</p>
                   </div>
                   <div class="flex items-start">
                     <PhoneIcon class="h-6 w-6 text-gray-400 mr-3 flex-shrink-0 mt-1" />
-                    <p class="text-gray-600">+86-21-XXXXXXXX</p>
+                    <p class="text-gray-600">+86-18939777123</p>
                   </div>
                 </div>
               </div>
@@ -97,11 +96,11 @@
                 <div class="space-y-4">
                   <div class="flex items-start">
                     <MapPinIcon class="h-6 w-6 text-gray-400 mr-3 flex-shrink-0 mt-1" />
-                    <p class="text-gray-600">泰国罗勇工业园XX路XX号</p>
+                    <p class="text-gray-600">中国工业区</p>
                   </div>
                   <div class="flex items-start">
                     <PhoneIcon class="h-6 w-6 text-gray-400 mr-3 flex-shrink-0 mt-1" />
-                    <p class="text-gray-600">+66-XX-XXXXXXX</p>
+                    <p class="text-gray-600">+86-18939777123</p>
                   </div>
                 </div>
               </div>
@@ -110,9 +109,7 @@
         </div>
       </div>
     </section>
-
-    <!-- Map Section -->
-    <section class="py-20 bg-gray-50">
+    <!-- <section class="py-20 bg-gray-50">
       <div class="container mx-auto px-4">
         <div class="text-center mb-12">
           <h2 class="text-3xl font-bold mb-4">我们的位置</h2>
@@ -121,14 +118,13 @@
 
         <div class="bg-white p-1 rounded-xl shadow-lg max-w-5xl mx-auto">
           <div class="bg-gray-100 h-[500px] rounded-lg overflow-hidden">
-            <!-- Map container -->
             <img src="https://api.map.baidu.com/staticimage/v2?ak=E4805d16520de693a3fe707cdc962045&width=800&height=500&center=121.937234,30.877567&zoom=15&markers=121.937234,30.877567"
                  alt="公司地址地图"
                  class="w-full h-full object-cover" />
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 

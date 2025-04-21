@@ -6,7 +6,9 @@
         <router-link to="/"
                      class="flex items-center">
           <div class="text-2xl font-bold text-gray-800">
-            <span class="text-blue-700">航懋</span>机城
+            <img src="/src/assets/logo.png"
+                 class="w-100 h-10">
+            <span class="text-blue-700">航懋机械</span>
           </div>
         </router-link>
 
@@ -62,7 +64,7 @@ const navItems = [
   { name: '主营业务', path: '/services' },
   { name: '技术优势', path: '/technology' },
   { name: '应用案例', path: '/applications' },
-  { name: '服务流程', path: '/process' },
+  { name: '发展历程', path: '/process' },
   { name: '联系我们', path: '/contact' },
 ]
 

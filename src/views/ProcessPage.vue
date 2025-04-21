@@ -3,9 +3,9 @@
     <!-- Page Header -->
     <section class="bg-gray-900 text-white py-20">
       <div class="container mx-auto px-4 text-center">
-        <h1 class="text-4xl font-bold mb-4">服务流程</h1>
+        <h1 class="text-4xl font-bold mb-4">发展历程</h1>
         <p class="text-xl max-w-3xl mx-auto">
-          我们提供从需求沟通到交付服务的全流程支持，确保项目顺利完成
+          多年来，公司产品线快速扩展
         </p>
       </div>
     </section>
@@ -35,7 +35,7 @@
                 ]">
                   <div class="flex flex-col md:flex-row items-start gap-6">
                     <div class="md:w-1/3">
-                      <img :src="placeholderImage"
+                      <img :src="step.url"
                            :alt="step.title"
                            class="rounded-lg w-full" />
                     </div>
@@ -161,34 +161,34 @@ import placeholderImage from '../assets/placeholder.svg'
 
 const processSteps = [
   {
-    title: '需求沟通',
-    description: '深入了解客户需求，提供专业建议。',
-    keyPoints: ['技术要求确认', '材料选型建议', '加工工艺讨论', '成本预算评估'],
+    title: '2014',
+    description: '公司成立',
+    keyPoints: ['为航运船舶提供贴身产品及服务'],
+    url: '/src/assets/process1.png',
   },
   {
-    title: '方案制定',
-    description: '根据需求制定详细的加工方案。',
-    keyPoints: ['工艺路线规划', '加工参数设定', '质量控制计划', '交期安排确定'],
+    title: '2018',
+    description: '工业备品备件',
+    keyPoints: ['小批量工业备件生产制造'],
+    url: '/src/assets/process2.png',
   },
   {
-    title: '样品制作',
-    description: '制作样品并进行验证。',
-    keyPoints: ['首件加工制作', '尺寸精度检测', '性能指标测试', '样品确认审核'],
+    title: '2020',
+    description: '产品线快速扩张',
+    keyPoints: ['流体行业', '交通运输行业'],
+    url: '/src/assets/process3.png',
   },
   {
-    title: '批量生产',
-    description: '按计划进行规模化生产。',
-    keyPoints: ['生产计划执行', '过程质量控制', '生产进度跟踪', '异常情况处理'],
+    title: '2022',
+    description: '泰国工厂筹建',
+    keyPoints: ['优化供应链满足客户需求'],
+    url: '/src/assets/process4.png',
   },
   {
-    title: '品质检验',
-    description: '严格的质量检验流程。',
-    keyPoints: ['尺寸检测', '外观检查', '性能测试', '质量报告生成'],
-  },
-  {
-    title: '交付服务',
-    description: '及时交付并提供后续支持。',
-    keyPoints: ['包装防护', '物流配送', '技术支持', '售后服务'],
+    title: '2024',
+    description: '多元化供货',
+    keyPoints: ['中国基地满足亚太+欧洲泰国基地满足当地及北美'],
+    url: '/src/assets/process5.png',
   },
 ]
 

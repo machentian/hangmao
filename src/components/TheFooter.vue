@@ -5,10 +5,10 @@
         <!-- Company Info -->
         <div>
           <div class="text-2xl font-bold mb-4">
-            <span class="text-blue-500">航懋</span>机城
+            <span class="text-blue-500">航懋机械</span>
           </div>
           <p class="text-gray-400 mb-4">
-            航懋机械（上海）有限公司是一家专注于高端制造与精密加工的综合性企业
+            航懋机械（上海）有限公司，一家专注于多品种小批量零件一站式交付服务的供应商
           </p>
           <div class="flex space-x-4">
             <a href="#"
@@ -47,15 +47,15 @@
           <div class="space-y-2">
             <div class="flex items-center">
               <MapPinIcon class="h-5 w-5 text-blue-500 mr-2" />
-              <span class="text-gray-400">上海市浦东新区临港新片区</span>
+              <span class="text-gray-400">上海市奉贤区肖湾路511号2幢3层</span>
             </div>
             <div class="flex items-center">
               <PhoneIcon class="h-5 w-5 text-blue-500 mr-2" />
-              <span class="text-gray-400">+86-21-XXXXXXXX</span>
+              <span class="text-gray-400">张谦 +86-18939777123</span>
             </div>
             <div class="flex items-center">
               <MailIcon class="h-5 w-5 text-blue-500 mr-2" />
-              <span class="text-gray-400">info@hangmaojicheng.com</span>
+              <span class="text-gray-400">james.zhang@126.com</span>
             </div>
           </div>
         </div>
