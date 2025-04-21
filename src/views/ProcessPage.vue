@@ -164,19 +164,19 @@ const processSteps = [
     title: '2014',
     description: '公司成立',
     keyPoints: ['为航运船舶提供贴身产品及服务'],
-    url: '/src/assets/process1.png',
+    url: '/src/assets/process1.jpg',
   },
   {
     title: '2018',
     description: '工业备品备件',
     keyPoints: ['小批量工业备件生产制造'],
-    url: '/src/assets/process2.png',
+    url: '/src/assets/product2.jpg',
   },
   {
     title: '2020',
     description: '产品线快速扩张',
     keyPoints: ['流体行业', '交通运输行业'],
-    url: '/src/assets/process3.png',
+    url: '/src/assets/process3.jpg',
   },
   {
     title: '2022',
